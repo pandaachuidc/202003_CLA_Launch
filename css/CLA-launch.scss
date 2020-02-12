@@ -74,6 +74,10 @@ img {
     vertical-align: top; //解除圖片底下有空白問題
 }
 
+ul,li{
+  list-style: none;
+}
+
 // body {
 //     color: white;
 //     font-weight: 400;
@@ -787,26 +791,22 @@ $purple: #92629d;
             .CLA-content {
                 padding: 5% 8%;
                 .tit {
-                    color: $purple;
-                    font-size: 30px;
-                    display: block;
-                    border: $purple solid 1px;
-                    padding: 0.4em 0;
+                    // font-size: 30px;
+                    // padding: 0.4em 0;
                 }
                 p {
-                    font-size: 21px;
-                    text-align: left;
-                    line-height: 1.5;
-                    padding: 2em 0;
+                    // font-size: 21px;
+                    // line-height: 1.5;
+                    // padding: 2em 0;
                 }
             }
             .eventpage_oto_wrapper .event_oto .event_content {
                 .note-wrap {
-                    text-align: left;
-                    padding: 0.5em 10px 0;
+                    // text-align: left;
+                    // padding: 0.5em 10px 0;
                     ul {
                         li {
-                            font-size: 15px;
+                            // font-size: 15px;
                         }
                     }
                 }
@@ -831,36 +831,278 @@ $purple: #92629d;
             font-size: 15px;
         }
         .CLA-btn-wrap {
-            padding: 0.8em 0;
+            // padding: 0.8em 0;
             a {
                 &:nth-of-type(1) {
-                    padding-right: 0.5em;
+                    // padding-right: 0.5em;
                 }
             }
-            .CLA-btn-buy,
-            .CLA-btn-try {
-                display: inline-block;
-                text-align: center;
-                margin: 10px auto;
-                padding: 12px 40px;
-                font-size: 18px;
-                letter-spacing: 0.1em;
-                color: #fff;
-                background-color: #000;
-                border: 1px solid #000;
-                box-shadow: 0 0 10px #fff;
-                transition: background-color 0.25s ease-out, color 0.25s ease-out,
-                    border-color 0.25s ease-out;
-                &:hover {
-                    transition: all 0.5s ease;
-                    transform: scale(0.9);
-                    background: #fff;
-                    border: 1px solid #000;
-                    color: #000;
-                }
-            }
+            
         }
     }
+}
+
+@media (max-width: 414px) {
+  .CLA-Launch-wrap {
+      .kv-wrap {
+          .CLA-content {
+              top: 6%;
+              left: 0;
+              right: 0;
+              .top {
+                  .tit {
+                      span {
+                          font-size: 35px;
+                      }
+                  }
+              }
+              .bottom {
+                  margin-top: 121%;
+                  .sub-tit {
+                  }
+              }
+          }
+          .note {
+              margin: 0 50px;
+              p {
+              }
+          }
+      }
+      .section-2-intro-wrap {
+          .CLA-content {
+              .top {
+                  margin-top: 9%;
+              }
+              .intro-infographic {
+                  margin-left: 48%;
+                  margin-top: 45%;
+                  width: 30%;
+              }
+              .bottom {
+                  margin-top: 8%;
+                  h2 {
+                      span {
+                          // font-size: 21px;
+                      }
+                  }
+              }
+          }
+      }
+      .section-3-table-wrap {
+          .CLA-content {
+              .top {
+                  margin-top: 5%;
+                  &:after {
+                      // width: 37em;
+                      // padding: 1.5em 0;
+                  }
+              }
+              .table {
+                  margin: 0 5%;
+                  span {
+                      // top: 32%;
+                      // left: 53%;
+                      img {
+                          // width: 56px;
+                          // margin: 3.5em 0;
+                      }
+                  }
+                  img {
+                      width: 100%;
+                      margin: 0 auto;
+                  }
+              }
+          }
+      }
+      .section-4-details-wrap {
+          .CLA-content {
+              // top: 4.7%;
+              .top {
+              }
+              .details-toggle {
+                  // margin-top: 8%;
+                  margin: 0 10px;
+                  .items {
+                      padding: 0;
+                      margin: 0 ;
+                      .item {
+                        width: 100%;
+                          .head {
+                            flex-wrap: wrap;
+                              .percentage {
+                                  // padding-right: 1em;
+                                 
+                              }
+                              span {
+                                  font-size: 30px - 14;
+                                  // line-height: 1.3;
+                                  // padding-left: 0.5em;
+                                  // padding-right: 0.5em;
+                              }
+                              a {
+                                // padding-top:0.5em ;
+                                display: block;
+                                width: 40px;
+                                height: auto;
+                                  .details-button {
+                                      // opacity: 0.7;
+                                  }
+                              }
+                          }
+                          .product-detail {
+                              // margin-top: 1.5em;
+                              .wrap {
+                                  padding: 1em;
+                                 
+                                  h3 {
+                                      
+                                      font-size: 31px - 12;
+                                      .text-line {
+                                          // width: 0.8em;
+                                          // padding-top: 0.3em;
+                                      }
+                                      .sub-tit {
+                                          font-size: 25px - 9;
+                                      }
+                                  }
+                                  p {
+                                      font-size: 25px - 9;
+                                      // padding-top: 0.5em;
+                                      // line-height: 1.3;
+                                      &:nth-of-type(1) {
+                                          // margin-bottom: 1em;
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+                  .info-1-wrap {
+                     margin: 0;
+                     width: 250px;
+                     padding-top: 50px;
+                      .info-1 {
+                          .head {
+                            width: 15em;
+                            .percentage{
+                              width: 63px;
+                                    height: auto;
+                            }
+                            a{
+                              
+                            }
+                          }
+                      }
+                      .line {
+                          // margin-top: 45%;
+                          // margin-left: -30%;
+                          height: 100px;
+                          width: auto;
+                          margin: 0;
+                          margin-top: 50px;
+                      }
+                  }
+                  .info-2-wrap {
+                      // margin-left: 50%;
+                      // margin-top: 10%;
+                      margin: 0;
+                    
+                      .info-2 {
+                          top: 100%;
+                          .head{
+                            width: 16em;
+                          }
+
+                          span {
+                              border-left: none;
+                          }
+                      }
+                      .line {
+                          // margin-top: 5%;
+                          // margin-left: -45%;
+                          height: 100px;
+                          width: auto;
+                          margin: 0;
+                      }
+                  }
+                  .info-3-wrap {
+                      // margin-top: 10%;
+                      // margin-left: 5%;
+                      margin: 0;
+                      .info-3 {
+                          // margin-top: 2%;
+                          // margin-left: 44%;
+                          .head{
+                            width: 18em;
+                            .percentage{
+                              width: 98px;
+                              height: auto;
+                            }
+                          }
+                          span {
+                          }
+                      }
+                      .line {
+                          // margin-top: -55%;
+                          // margin-left: -45%;
+                          height: 100px;
+                          width: auto;
+                          margin: 0;
+                      }
+                  }
+              }
+              .bottom {
+                  margin-top: 25%;
+              }
+          }
+      }
+      .section-5-form-wrap {
+          .CLA-content {
+              padding: 5% 8%;
+              .tit {
+                  // font-size: 30px;
+                  // padding: 0.4em 0;
+              }
+              p {
+                  // font-size: 21px;
+                  // line-height: 1.5;
+                  // padding: 2em 0;
+              }
+          }
+          .eventpage_oto_wrapper .event_oto .event_content {
+              .note-wrap {
+                  // text-align: left;
+                  // padding: 0.5em 10px 0;
+                  ul {
+                      li {
+                          // font-size: 15px;
+                      }
+                  }
+              }
+          }
+      }
+      // 共用
+
+      h1 {
+          font-size: 25px;
+          font-weight: bold;
+      }
+      h2 {
+          font-size: 22px;
+      }
+      .note {
+          font-size: 12px;
+      }
+      .CLA-btn-wrap {
+          // padding: 0.8em 0;
+          a {
+              &:nth-of-type(1) {
+                  // padding-right: 0.5em;
+              }
+          }
+          
+      }
+  }
 }
 
 // animation
