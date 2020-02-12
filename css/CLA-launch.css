@@ -80,7 +80,7 @@ img {
       background: url(../images/section-1-kv-bg-pc-light.jpg) no-repeat top center;
       background-size: 100%; }
       .CLA-Launch-wrap .kv-wrap .bg-img:before {
-        content: "";
+        content: '';
         display: block;
         background: url(../images/section-1-kv-bg-pc-dark.jpg) no-repeat top center;
         background-size: 100%;
@@ -121,7 +121,7 @@ img {
       background: url(../images/section-2-intro-bg-pc-light.jpg) no-repeat top center;
       background-size: 100%; }
       .CLA-Launch-wrap .section-2-intro-wrap .bg-img:before {
-        content: "";
+        content: '';
         display: block;
         background: url(../images/section-2-intro-bg-pc-dark.jpg) no-repeat top center;
         background-size: 100%;
@@ -170,7 +170,7 @@ img {
       .CLA-Launch-wrap .section-3-table-wrap .CLA-content .top {
         margin-top: 5%; }
         .CLA-Launch-wrap .section-3-table-wrap .CLA-content .top:after {
-          content: "";
+          content: '';
           display: block;
           background: url(../images/line.png) no-repeat center center;
           background-size: 100%;
@@ -198,7 +198,7 @@ img {
               -webkit-animation-delay: 0.6s;
               animation-delay: 0.6s; }
         .CLA-Launch-wrap .section-3-table-wrap .CLA-content .table img {
-          width: 70.15%; }
+          margin: 0 auto; }
       .CLA-Launch-wrap .section-3-table-wrap .CLA-content .table.active {
         -webkit-animation: approach-from-top 1s;
         animation: approach-from-top 1s; }
@@ -209,7 +209,7 @@ img {
       background: url(../images/section-4-details-bg-pc-dark.jpg) no-repeat top center;
       background-size: 100%; }
       .CLA-Launch-wrap .section-4-details-wrap .bg-img:before {
-        content: "";
+        content: '';
         display: block;
         background: url(../images/section-4-details-bg-pc-light2.jpg) no-repeat top center;
         background-size: 100%;
@@ -224,7 +224,7 @@ img {
         .CLA-Launch-wrap .section-4-details-wrap .bg-img:before img {
           width: 100%; }
       .CLA-Launch-wrap .section-4-details-wrap .bg-img:after {
-        content: "";
+        content: '';
         display: block;
         background: url(../images/section-4-details-bg-pc-light1.jpg) no-repeat top center;
         background-size: 100%;
@@ -472,125 +472,51 @@ img {
     .CLA-Launch-wrap .section-4-details-wrap .bg-img:after {
       background: url(../images/section-4-details-bg-mb.jpg) no-repeat top center;
       background-size: 100%; }
-  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle {
-    margin-top: 8%; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items {
-      width: 452px;
-      opacity: 1;
-      -webkit-transition: 1s;
-      -o-transition: 1s;
-      transition: 1s;
-      position: relative; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item {
-        position: absolute;
-        z-index: 3;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: start; }
-        .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-          flex-direction: row;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: end;
-          -ms-flex-align: end;
-          align-items: flex-end;
-          text-align: left; }
-          .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head .percentage {
-            padding-right: 1em; }
-          .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head span {
-            display: block;
-            text-align: left;
-            color: #92629d;
-            font-size: 30px;
-            line-height: 1.3;
-            padding-left: 0.5em;
-            padding-right: 0.5em;
-            border-left: #92629d solid 3px; }
-          .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head a .details-button {
-            opacity: 0.7; }
-        .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail {
-          display: none;
-          text-align: left;
-          margin-top: 1.5em; }
-          .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap {
-            width: 100%;
-            color: #92629d;
-            padding: 2em;
-            background-color: rgba(255, 255, 255, 0.95); }
-            .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap h3 {
-              display: inline;
-              font-size: 31px;
-              font-weight: bold; }
-              .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap h3 .text-line {
-                display: inline-block;
-                width: 0.8em;
-                border-top: #92629d dotted 1px;
-                padding-top: 0.3em; }
-              .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap h3 .sub-tit {
-                font-size: 25px;
-                font-weight: normal; }
-            .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap p {
-              color: #000;
-              font-size: 25px;
-              text-align: left;
-              padding-top: 0.5em;
-              line-height: 1.3; }
-              .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap p:nth-of-type(1) {
-                margin-bottom: 1em; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .line.active {
-        -webkit-animation: approach-from-left 1s;
-        animation: approach-from-left 1s; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items.active .item .head a .details-button {
-      opacity: 1;
-      -webkit-animation: buttonRoll 1s linear alternate;
-      animation: buttonRoll 1s linear alternate;
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items.active .item .product-detail {
-      display: block;
-      -webkit-transition: 1s;
-      -o-transition: 1s;
-      transition: 1s; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-1-wrap {
-      margin-left: 30%; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-1-wrap .line {
-        margin-top: 17%; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap {
-      margin-left: 60%; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .info-2 {
-        top: 100%; }
-        .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .info-2 span {
-          border-left: none; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .line {
-        margin-top: 20%;
-        margin-right: 100%; }
-    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-3-wrap {
-      margin-top: 5%;
-      margin-left: 15%; }
-      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-3-wrap .line {
-        margin-top: -45%;
-        margin-left: 15%; }
-  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .bottom {
+  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items {
+    width: 46%;
+    padding: 0 1%; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .head a {
+        padding-top: 0.5em; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .items .item .product-detail .wrap {
+      padding: 1em; }
+  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-1-wrap {
+    margin-left: 20%;
+    margin-top: 15%; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-1-wrap .info-1 .head {
+      width: 15em; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-1-wrap .line {
+      margin-top: 45%;
+      margin-left: -30%; }
+  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap {
+    margin-left: 50%;
     margin-top: 10%; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .info-2 {
+      top: 100%; }
+      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .info-2 .head {
+        width: 16em; }
+      .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .info-2 span {
+        border-left: none; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-2-wrap .line {
+      margin-top: 5%;
+      margin-left: -45%; }
+  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-3-wrap {
+    margin-top: 10%;
+    margin-left: 5%; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-3-wrap .info-3 .head {
+      width: 18em; }
+    .CLA-Launch-wrap .section-4-details-wrap .CLA-content .details-toggle .info-3-wrap .line {
+      margin-top: -55%;
+      margin-left: -45%; }
+  .CLA-Launch-wrap .section-4-details-wrap .CLA-content .bottom {
+    margin-top: 25%; }
   .CLA-Launch-wrap .section-5-form-wrap {
     background: url(../images/section-5-form-bg-mb.jpg) no-repeat top center;
     background-size: 100%; }
     .CLA-Launch-wrap .section-5-form-wrap .CLA-content {
-      padding: 4.7% 25%; }
+      padding: 5% 8%; }
       .CLA-Launch-wrap .section-5-form-wrap .CLA-content .tit {
         color: #92629d;
         font-size: 30px;
