@@ -1,0 +1,292 @@
+<div class="rsContentSec event_oto">
+    <div class="event_content">
+        <div class="formfields_box">
+            <form method="post" id="otoo-event-form">
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  name required"
+                    data-required-text="請輸入收件人姓名"
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_name">
+                        <span class="f_label_value form-field__label-value">
+                            姓名
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_name"
+                        name="dwfrm_oto_oevent_name"
+                        class=" textinput f_textinput input-group-field  required required"
+                        maxlength="20"
+                        minlength="0"
+                        value=""
+                        parseerror="oevent.name.error"
+                        regex="^[A-Za-z\u0080-\u00FF -]{1,20}$"
+                        missingerror="oevent.name.error"
+                        rangeerror="oevent.name.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  mobile required"
+                    data-required-text="請輸入手機號碼"
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_mobile">
+                        <span class="f_label_value form-field__label-value">
+                            手機
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_mobile"
+                        name="dwfrm_oto_oevent_mobile"
+                        class=" textinput f_textinput input-group-field  required account_customer_mobile required"
+                        maxlength="10"
+                        minlength="0"
+                        value=""
+                        missingerror="oevent.mobile.error"
+                        rangeerror="oevent.mobile.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  formfield_email required"
+                    data-required-text="請輸入電子郵件地址"
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_email">
+                        <span class="f_label_value form-field__label-value">
+                            信箱
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_email"
+                        name="dwfrm_oto_oevent_email"
+                        class=" textinput f_textinput input-group-field  required email required"
+                        maxlength="50"
+                        minlength="0"
+                        value=""
+                        parseerror="oevent.email.error"
+                        regex="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
+                        missingerror="oevent.email.error"
+                        rangeerror="oevent.email.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  formfield_address1 input-group input-group--block"
+                    data-required-text="請輸入收件人地址"
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_address1">
+                        <span class="f_label_value form-field__label-value">
+                            地址
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_address1"
+                        name="dwfrm_oto_oevent_address1"
+                        class=" textinput f_textinput input-group-field  address_allowed_characters"
+                        maxlength="35"
+                        minlength="0"
+                        value=""
+                        rangeerror="oevent.address1.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  vendorsystemid"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_vendorsystemid"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_vendorsystemid"
+                        value="d2cd35f31689535a2f4634b132"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  campaignid"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_campaignid"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_campaignid"
+                        value="DCTEST"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  brandid"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_brandid"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_brandid"
+                        value="01"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  custid"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_custid"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_custid"
+                        value=""
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  source"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_source"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_source"
+                        value=""
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  medium"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_medium"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_medium"
+                        value=""
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  content"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_content"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_content"
+                        value=""
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_hidden  formfield formfield_hidden  creationtime"
+                    data-required-text=""
+                >
+                    <input
+                        type="hidden"
+                        name="dwfrm_oto_oevent_creationtime"
+                        class=" f_hidden  "
+                        id="dwfrm_oto_oevent_creationtime"
+                        value="2019-06-26 06:28:22"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  formfield_oevent_question"
+                    data-required-text=""
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_answer1">
+                        <span class="f_label_value form-field__label-value">
+                            年齡
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_answer1"
+                        name="dwfrm_oto_oevent_answer1"
+                        class=" textinput f_textinput input-group-field  "
+                        maxlength="2147483647"
+                        minlength="0"
+                        value=""
+                        rangeerror="oevent.answer1.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_textinput  formfield formfield_textinput  formfield_oevent_question"
+                    data-required-text=""
+                >
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_answer2">
+                        <span class="f_label_value form-field__label-value">
+                            您要發佈貼文的社群網址&#40;FB或IG皆可&#41;
+                        </span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dwfrm_oto_oevent_answer2"
+                        name="dwfrm_oto_oevent_answer2"
+                        class=" textinput f_textinput input-group-field  "
+                        maxlength="2147483647"
+                        minlength="0"
+                        value=""
+                        rangeerror="oevent.answer2.error"
+                    />
+                </div>
+
+                <div
+                    class="f_field f_field_checkbox  formfield formfield_checkbox  formfield_oevent_question answer7 required"
+                    data-required-text=""
+                >
+                    <input
+                        type="checkbox"
+                        id="dwfrm_oto_oevent_answer7"
+                        name="dwfrm_oto_oevent_answer7"
+                        class=" checkbox f_checkbox form-input__checkbox  required"
+                        value=""
+                        missingerror="oevent.answer7.error"
+                        rangeerror="oevent.answer7.error"
+                    />
+
+                    <label class="f_label form-field__label " for="dwfrm_oto_oevent_answer7">
+                        <span class="f_label_value form-field__label-value">
+                            提醒您送出資料後，即代表您同意將此資料提供予Lanc&ocirc;me
+                            蘭蔻進行行銷處理與使用
+                        </span>
+                    </label>
+                </div>
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="TkItduFMwhaXDLXTOiMaw_IFsBtSj9XgmRgcLENwOtmaOqiPSg8kp2l02hoI8nZSrkk_UjxFvC_6e7V6yLL_F56eT1jcwbxEvXs3tsR0MDSO1sSwvwMlRb6PbQ3Sinpr7nz3Sn3ZOG6DEv6BtiTA74yvtW559xITa73bz-Rq7dQgYr8J5FA"
+                />
+            </form>
+        </div>
+        <div class="button_box">
+            <div class="formfield formfield_button">
+                <button
+                    class="button submit_button fuchsia_animate"
+                    type="submit"
+                    id="otoo-event-submit-button"
+                    value="送出"
+                    name="dwfrm_oto_submit"
+                >
+                    <span>送出</span>
+                </button>
+            </div>
+        </div>
+        <div class="response_box"><span></span></div>
+    </div>
+</div>
