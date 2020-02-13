@@ -18,7 +18,7 @@
     <!----------錨點位置調整------------>
     <!-- <script>
             $(function() {
-                $('.rsKvBtnText').click(function(e) {
+                $('.CLA-btn-try-btn').click(function(e) {
                     var _go = $(this).attr('href');
                     $('body,html').animate({
                         //減除.sticky-header的高度
@@ -50,12 +50,12 @@
             <div class="CLA-btn-wrap">
               <a
                 href="$url('Product-Show','pid','A01693-LAC')$"
-                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone CLA-btn-buy-btn"
                 ><span class="CLA-btn-buy">立即購買</span></a
               >
               <a
-                href="#CLA-Launch-form"
-                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                href="#coupon"
+                class="ll-btn ll-btn--black CLA-btn-try-btn"
                 ><span class="CLA-btn-try">立即體驗</span></a
               >
             </div>
@@ -83,12 +83,12 @@
             <div class="CLA-btn-wrap">
               <a
                 href="$url('Product-Show','pid','A01693-LAC')$"
-                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone CLA-btn-buy-btn"
                 ><span class="CLA-btn-buy">立即購買</span></a
               >
               <a
-                href="#CLA-Launch-form"
-                class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                href="#coupon"
+                class="ll-btn ll-btn--black CLA-btn-try-btn"
                 ><span class="CLA-btn-try">立即體驗</span></a
               >
             </div>
@@ -111,11 +111,11 @@
             <h2>超保濕、超淨亮，一抹超速發光!</h2>
           </div>
           <div class="table animate">
-            <span>
+            <!-- <span>
               <img class="animate" src="images/win.png" alt="" />
               <img class="animate" src="images/win.png" alt="" />
               <img class="animate" src="images/win.png" alt="" />
-            </span>
+            </span> -->
             <img class="pc" src="images/section-3-table-pc.png" alt="" />
             <img class="mb" src="images/section-3-table-mb.png" alt="" />
           </div>
@@ -145,8 +145,8 @@
                 <div class="head">
                   <img class="percentage" src="images/section-4-3.png" alt="" />
                   <span>
-                    植萃 <br />
-                    冷壓精油</span
+                    天然 <br />
+                    植萃精油</span
                   >
                   <a href=""
                     ><img
@@ -169,30 +169,6 @@
                 </div>
               </div>
               <img class="line animate" src="images/section-4-line-top.png" alt="" />
-            </div>
-            <div class="info-2-wrap items">
-              <div class="info-2 item">
-                <div class="head">
-                  <span> 專利極光激活棒</span>
-                  <a href=""
-                    ><img
-                      class="details-button"
-                      src="images/section-4-show-button.png"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="product-detail">
-                  <div class="wrap">
-                    <h3>
-                      每次搖動 極速激活發光能量
-                    </h3>
-                    <p>
-                      完美混勻3/97油水，同時打造細緻精華微泡加速吸收、更好滲透，讓肌膚享受最新鮮的細緻柔嫩。
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <img class="line animate" src="images/section-4-line-bottom.png" alt="" />
             </div>
             <div class="info-3-wrap items">
               <div class="info-3 item">
@@ -235,7 +211,33 @@
               </div>
               <img class="line animate" src="images/section-4-line-bottom2.png" alt="" />
             </div>
-            <div class="bottom">
+            <div class="info-2-wrap items">
+              <div class="info-2 item">
+                <div class="head">
+                  <span> 專利極光激活棒</span>
+                  <a href=""
+                    ><img
+                      class="details-button"
+                      src="images/section-4-show-button.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div class="product-detail">
+                  <div class="wrap">
+                    <h3>
+                      每次搖動 極速激活發光能量
+                    </h3>
+                    <p>
+                      完美混勻3/97油水，同時打造細緻精華微泡加速吸收、更好滲透，讓肌膚享受最新鮮的細緻柔嫩。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img class="line animate" src="images/section-4-line-bottom.png" alt="" />
+            </div>
+            
+          </div>
+              <div class="bottom">
               <h2>
                 超極光活粹晶露 <br />
                 #極光水
@@ -243,20 +245,20 @@
               <div class="CLA-btn-wrap">
                 <a
                   href="$url('Product-Show','pid','A01693-LAC')$"
-                  class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                  class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone CLA-btn-buy-btn"
                   ><span class="CLA-btn-buy">立即購買</span></a
                 >
                 <a
-                  href="#CLA-Launch-form"
-                  class="js_quickshoppopin ll-btn ll-btn--black js_o2oClone"
+                  href="#coupon"
+                  class="ll-btn ll-btn--black CLA-btn-try-btn"
                   ><span class="CLA-btn-try">立即體驗</span></a
                 >
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div class="section-5-form-wrap">
+      <div class="section-5-form-wrap" >
+        <span id="coupon" class="adjust"></span><span id="Coupon" class="adjust"></span><span id="COUPON" class="adjust"></span>
         <div class="CLA-content">
           <h1>
             限時限量 極光水免費搶先體驗
@@ -270,12 +272,11 @@
             (隨機抽選，數量有限，送完為止)
             獲選者將於2020/2/20收到簡訊通知並寄出體驗組 *每人限領乙次
           </p>
-          <div class="eventpage_oto_wrapper o2o-complex" id="CLA-Launch-form">
+          <div class="eventpage_oto_wrapper o2o-complex" id="CLA-form">
             <div class="event_oto">
               <div class="event_content">
                 <div class="formfields_box">$oToOEventForm()$</div>
                 <div class="formfields_box">$oToOEventRegister()$</div>
-                <div class="button_box">$oToOSubmitButton()$</div>
                 <div class="note-wrap note">
                   <ul>
                     <li>
@@ -284,6 +285,8 @@
                     <li> ◦ 蘭蔻保留修改本活動辦法之權利，恕不另行通知。</li>
                   </ul>
                 </div>
+                <div class="button_box">$oToOSubmitButton()$</div>
+                
                 <div class="response_box"><span></span></div>
               </div>
             </div>

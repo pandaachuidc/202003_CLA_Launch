@@ -21,7 +21,7 @@ li:hover {
 //==========================
 
 //表單直式
-#CLA-Launch-form .formfield {
+#CLA-form .formfield {
   float: none;
   width: 100%;
   margin: 0;
@@ -35,7 +35,7 @@ li:hover {
 .eventpage_oto_wrapper .event_oto .event_content .formfields_box {
   width: 100%;
   margin: 0;
-//   padding: 0 15%;
+  //   padding: 0 15%;
 }
 
 //表單名稱隱藏
@@ -159,7 +159,7 @@ li:hover {
     -webkit-box-shadow: 0 0 10px #fff;
     margin-bottom: 20px;
   }
-  #CLA-Launch-form .formfield.formfield_button {
+  #CLA-form .formfield.formfield_button {
     margin: 0 auto;
     width: 200px;
     float: none; //消除完本float left
@@ -271,3 +271,12 @@ li:hover {
 
 //送出資料popup & 錯誤popup END
 //==========================
+
+@media (max-width: 414px) {
+  #CLA-form .f_field input::placeholder {
+    color: #92629d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1;
+  }
+}
