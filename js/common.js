@@ -1,14 +1,14 @@
 // on screen animation
 
-// $(window).scroll(function() {
-//   $(".animate").each(function() {
-//     if ($(this).isOnScreen(0, 0.1) == true) {
-//       $(this).addClass("active");
-//     } else {
-//       $(this).removeClass("active");
-//     }
-//   });
-// });
+$(window).scroll(function() {
+  $(".animate").each(function() {
+    if ($(this).isOnScreen(0, 0.1) == true) {
+      $(this).addClass("active");
+    } else {
+      $(this).removeClass("active");
+    }
+  });
+});
 
 //product details
 
