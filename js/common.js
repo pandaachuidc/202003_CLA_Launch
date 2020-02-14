@@ -48,7 +48,7 @@ $(".formfield.answer7").prepend('<span class="checkbox_span"></span>'),
   //  $("#dwfrm_oto_oevent_answer1").attr("placeholder", "請輸入年齡"),
   $("#dwfrm_oto_oevent_answer4").attr(
     "placeholder",
-    "請輸入目前使用水狀精華,化妝水品牌/品名"
+    "請輸入Instagram帳號/粉絲人數"
   ),
   $(".formfield.answer7 [for=dwfrm_oto_oevent_answer7]").html(
     '提醒您送出資料後，即代表您同意將此資料提供予Lancôme 蘭蔻進行行銷處理與使用<a href="http://www.lancome.com.tw/customer-service-security-policy.html" target="_blank">[詳細個人資料權益說明]</a>'

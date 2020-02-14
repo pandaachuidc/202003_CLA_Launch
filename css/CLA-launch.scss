@@ -79,10 +79,6 @@ li {
   list-style: none;
 }
 
-// body {
-//     color: white;
-//     font-weight: 400;
-// }
 $purple: #92629d;
 
 .CLA-Launch-wrap {
@@ -91,17 +87,17 @@ $purple: #92629d;
   margin: 0 auto;
   text-align: center;
   font-family: Microsoft JhengHei, 微軟正黑體, serif;
-  .section {
-    //max-width: 1280px; //lancome
-    .bg-img {
-    }
-    .CLA-content {
-      //max-width: 1280px; //lancome
-    }
-  }
+
   .kv-wrap {
     width: 100%;
     position: relative;
+    .adjust{
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 100px;
+      top: -80px;
+    }
     .bg-img {
       width: 100%;
       background: url(../images/section-1-kv-bg-pc-light.jpg) no-repeat top
@@ -126,7 +122,6 @@ $purple: #92629d;
     .CLA-content {
       position: absolute;
       z-index: 2;
-      // width: 100%;
       top: 35%;
       left: 38.3%;
       .top {
@@ -143,7 +138,6 @@ $purple: #92629d;
       }
     }
     .CLA-content.active {
-      // opacity: 1;
       animation: approach-from-top 1s;
     }
     .note {
@@ -196,14 +190,11 @@ $purple: #92629d;
       .intro-infographic {
         margin-left: 35%;
         margin-top: 12%;
-        // opacity: 0;
       }
       .intro-infographic.active {
-        // opacity: 1;
         animation: approach-from-right 2s;
       }
       .bottom {
-        // margin-top: 5%;
         h2 {
           span {
             font-size: 21px;
@@ -243,10 +234,8 @@ $purple: #92629d;
       }
       .table {
         position: relative;
-        // margin: 0 14.8%;
         span {
           position: absolute;
-          // max-width: 100%;
           top: 32%;
           left: 53%;
           img {
@@ -266,12 +255,10 @@ $purple: #92629d;
           }
         }
         img {
-          // width: 70.15%;
           margin: 0 auto;
         }
       }
       .table.active {
-        // opacity: 1;
         animation: approach-from-top 1s;
       }
     }
@@ -324,10 +311,7 @@ $purple: #92629d;
       top: 4.7%;
       left: 0;
       right: 0;
-      .top {
-      }
       .details-toggle {
-        // margin-top: 5%;
         .items {
           width: 452px;
           opacity: 1;
@@ -336,9 +320,6 @@ $purple: #92629d;
           .item {
             position: absolute;
             z-index: 3;
-            // display: flex;
-            // flex-direction: column;
-            // align-items: start;
             width: 100%;
             .head {
               display: flex;
@@ -427,14 +408,11 @@ $purple: #92629d;
           }
         }
         .info-1-wrap {
-          // margin-top: 5%;
           margin-left: 12%;
           .info-1 {
-            // top: 20px;
             left: 150px;
           }
           .line {
-            // margin-top: 17%;
             top: 80px;
             left: 400px;
           }
@@ -449,25 +427,17 @@ $purple: #92629d;
             }
           }
           .line {
-            // margin-top: 20%;
-            // margin-right: 100%;
             top: 300px;
             left: 650px;
           }
         }
         .info-3-wrap {
-          // margin-top: 5%;
-          // margin-left: 15%;
           margin-top: -2%;
           .info-3 {
-            // margin-top: 2%;
-            // margin-left: 44%;
             top: 600px;
             left: 200px;
           }
           .line {
-            // margin-top: -45%;
-            // margin-left: 15%;
             top: 400px;
             left: 400px;
           }
@@ -532,9 +502,6 @@ $purple: #92629d;
   h2 {
     font-size: 30px;
   }
-  img {
-    // width: 100%;
-  }
   .note {
     font-size: 15px;
   }
@@ -576,7 +543,6 @@ $purple: #92629d;
     .kv-wrap {
       .CLA-content {
         top: 35%;
-        // left: 13.3%;
         .top {
           .tit {
             span {
@@ -588,15 +554,11 @@ $purple: #92629d;
     }
     .section-2-intro-wrap {
       .CLA-content {
-        .top {
-          // margin-top: 2.8%;
-        }
         .intro-infographic {
           width: 200px;
           height: auto;
         }
         .bottom {
-          // margin-top: 5%;
           h2 {
             span {
               font-size: 21px - 5;
@@ -621,7 +583,6 @@ $purple: #92629d;
         .top {
         }
         .details-toggle {
-          // margin-top: 5%;
           .items {
             width: 452px;
             .item {
@@ -729,8 +690,8 @@ $purple: #92629d;
       }
       .eventpage_oto_wrapper .event_oto .event_content {
         .note-wrap {
-          text-align: left;
-          padding: 0.5em 10px 0;
+          // text-align: left;
+          // padding: 0.5em 10px 0;
           ul {
             li {
               font-size: 15px;
@@ -760,10 +721,12 @@ $purple: #92629d;
   .CLA-Launch-wrap {
     .kv-wrap {
       .bg-img {
-        background: url(../images/section-1-kv-bg-mb-dark.jpg) no-repeat top center;
+        background: url(../images/section-1-kv-bg-mb-dark.jpg) no-repeat top
+          center;
         background-size: 100%;
         &:before {
-          background: url(../images/section-1-kv-bg-mb-light.jpg) no-repeat top center;
+          background: url(../images/section-1-kv-bg-mb-light.jpg) no-repeat top
+            center;
           background-size: 100%;
         }
       }
@@ -796,8 +759,8 @@ $purple: #92629d;
           center;
         background-size: 100%;
         &:before {
-          background: url(../images/section-2-intro-bg-mb-light.jpg) no-repeat top
-            center;
+          background: url(../images/section-2-intro-bg-mb-light.jpg) no-repeat
+            top center;
           background-size: 100%;
         }
       }
@@ -853,17 +816,17 @@ $purple: #92629d;
     }
     .section-4-details-wrap {
       .bg-img {
-        background: url(../images/section-4-details-bg-mb-light1.jpg) no-repeat top
-          center;
+        background: url(../images/section-4-details-bg-mb-light1.jpg) no-repeat
+          top center;
         background-size: 100%;
         &:before {
-          background: url(../images/section-4-details-bg-mb-light2.jpg) no-repeat top
-            center;
+          background: url(../images/section-4-details-bg-mb-light2.jpg)
+            no-repeat top center;
           background-size: 100%;
         }
         &:after {
-          background: url(../images/section-4-details-bg-mb-dark.jpg) no-repeat top
-            center;
+          background: url(../images/section-4-details-bg-mb-dark.jpg) no-repeat
+            top center;
           background-size: 100%;
         }
       }
@@ -999,6 +962,9 @@ $purple: #92629d;
 @media (max-width: 414px) {
   .CLA-Launch-wrap {
     .kv-wrap {
+      .adjust{
+        top: -120px;
+      }
       .CLA-content {
         top: 6%;
         left: 0;
@@ -1006,7 +972,7 @@ $purple: #92629d;
         .top {
           .tit {
             span {
-              font-size: 35px;
+              font-size: 35px - 15;
             }
           }
         }
@@ -1189,7 +1155,7 @@ $purple: #92629d;
         .top {
           .tit {
             span {
-              font-size: 35px;
+              // font-size: 35px;
             }
           }
         }
