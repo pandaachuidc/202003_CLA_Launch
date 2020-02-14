@@ -143,9 +143,9 @@ li:hover {
 //立即體驗btn START
 //==========================
 .eventpage_oto_wrapper .event_oto .event_content .button_box {
+  padding: 0;
   button {
-    // height: 40px;
-    width: 200px;
+    // width: 200px;
     display: inline-block;
     text-align: center;
     border: 1px solid #000;
@@ -154,10 +154,23 @@ li:hover {
     letter-spacing: 0.1em;
     font-weight: normal;
     padding: 12px 40px;
+    margin: 10px auto;
     background-color: #000;
     box-shadow: 0 0 10px #fff;
-    -webkit-box-shadow: 0 0 10px #fff;
-    margin-bottom: 20px;
+    // // height: 40px;
+    // width: 200px;
+    // display: inline-block;
+    // text-align: center;
+    // border: 1px solid #000;
+    // color: #fff;
+    // font-size: 18px;
+    // letter-spacing: 0.1em;
+    // font-weight: normal;
+    // padding: 12px 40px;
+    // background-color: #000;
+    // box-shadow: 0 0 10px #fff;
+    // -webkit-box-shadow: 0 0 10px #fff;
+    // margin-bottom: 20px;
   }
   #CLA-form .formfield.formfield_button {
     margin: 0 auto;

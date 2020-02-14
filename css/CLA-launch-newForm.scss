@@ -91,7 +91,7 @@ $purple: #92629d;
   .kv-wrap {
     width: 100%;
     position: relative;
-    .adjust{
+    .adjust {
       position: absolute;
       z-index: 1;
       display: block;
@@ -452,6 +452,7 @@ $purple: #92629d;
     background: url(../images/section-5-form-bg-pc.jpg) no-repeat top center;
     background-size: 100%;
     position: relative;
+    padding: 5% 8% 100px;
     .adjust {
       position: absolute;
       z-index: 1;
@@ -459,31 +460,91 @@ $purple: #92629d;
       width: 100px;
       top: -100px;
     }
-    .CLA-content {
-      padding: 4.7% 25%;
-      .tit {
-        color: $purple;
-        font-size: 30px;
-        display: block;
-        border: $purple solid 1px;
-        padding: 0.4em 0;
+    // .CLA-content {
+    //   padding: 4.7% 25%;
+    //   .tit {
+    //     color: $purple;
+    //     font-size: 30px;
+    //     display: block;
+    //     border: $purple solid 1px;
+    //     padding: 0.4em 0;
+    //   }
+    //   p {
+    //     font-size: 21px;
+    //     text-align: left;
+    //     line-height: 1.5;
+    //     padding: 2em 0;
+    //   }
+    // }
+    .CLA-content.new-form {
+      .top {
+        span {
+          font-size: 35px;
+        }
       }
-      p {
-        font-size: 21px;
-        text-align: left;
-        line-height: 1.5;
-        padding: 2em 0;
-      }
-    }
-    .eventpage_oto_wrapper .event_oto .event_content {
-      .note-wrap {
-        text-align: left;
-        padding: 1.5em 10px 0;
-        ul {
-          li {
-            font-size: 15px;
+      .bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        padding-top: 5%;
+        .CLA-form {
+          width: 50%;
+          p {
+            text-align: left;
+            font-size: 21px;
+            line-height: 1.5;
+          }
+          .eventpage_oto_wrapper .event_oto .event_content {
+            .note-wrap {
+              text-align: left;
+              padding: 1.5em 10px;
+              ul {
+                li {
+                  font-size: 15px;
+                  line-height: 1.5;
+                }
+              }
+            }
+            .CLA-btn-wrap {
+              display: flex;
+              justify-content: center;
+              div {
+                &:nth-of-type(1) {
+                  padding-right: 1.5em;
+                }
+              }
+            }
           }
         }
+        .CLA-gift {
+          width: 50%;
+          display: flex;
+          flex-direction: column-reverse;
+          padding-top: 3em;
+          .tit {
+            padding-left: 6em;
+            h1 {
+              font-size: 35px;
+            }
+            h2 {
+              font-size: 25px;
+              span {
+                display: block;
+                color: $purple;
+                span {
+                  font-size: 16px;
+                  display: inline;
+                  vertical-align: middle;
+                  padding-bottom: 0.4em;
+                }
+              }
+            }
+          }
+        }
+      }
+      .note {
+        text-align: left;
+        padding-top: 2em;
       }
     }
   }
@@ -671,35 +732,7 @@ $purple: #92629d;
         }
       }
     }
-    .section-5-form-wrap {
-      .CLA-content {
-        padding: 8% 20%;
-        .tit {
-          color: $purple;
-          font-size: 30px;
-          display: block;
-          border: $purple solid 1px;
-          padding: 0.4em 0;
-        }
-        p {
-          font-size: 21px;
-          text-align: left;
-          line-height: 1.5;
-          padding: 2em 0;
-        }
-      }
-      .eventpage_oto_wrapper .event_oto .event_content {
-        .note-wrap {
-          // text-align: left;
-          // padding: 0.5em 10px 0;
-          ul {
-            li {
-              font-size: 15px;
-            }
-          }
-        }
-      }
-    }
+
     // 共用
 
     h1 {
@@ -931,9 +964,71 @@ $purple: #92629d;
     .section-5-form-wrap {
       background: url(../images/section-5-form-bg-mb.jpg) no-repeat top center;
       background-size: 100%;
-      padding-bottom: 50px;
-      .CLA-content {
-        padding: 5% 8%;
+      padding: 5% 0 100px;
+      .CLA-content.new-form {
+        .top {
+          span {
+            // font-size: 35px;
+          }
+        }
+        .bottom {
+          flex-direction: column;
+          padding-top: 5%;
+          .CLA-form {
+            width: 100%;
+            padding: 0 6.5%;
+            p {
+              // font-size: 21px;
+              // line-height: 1.5;
+            }
+            .eventpage_oto_wrapper .event_oto .event_content {
+              .note-wrap {
+                // text-align: left;
+                // padding: 1.5em 10px;
+                ul {
+                  li {
+                    // font-size: 15px;
+                    // line-height: 1.5;
+                  }
+                }
+              }
+              .CLA-btn-wrap {
+                // display: flex;
+                // justify-content: center;
+                div {
+                  &:nth-of-type(1) {
+                    padding-right: 0;
+                    margin-right: 1.5em;
+                  }
+                }
+              }
+            }
+          }
+          .CLA-gift {
+            width: 100%;
+            flex-direction: column;
+            // padding-top: 3em;
+            .tit {
+              padding-left: 0;
+              h1 {
+                // font-size: 35px;
+              }
+              h2 {
+                // font-size: 25px;
+                span {
+                  span {
+                    // font-size: 16px;
+                    // padding-bottom: 0.4em;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .note {
+          // text-align: left;
+          // padding-top: 2em;
+        }
       }
     }
     // 共用
@@ -962,7 +1057,7 @@ $purple: #92629d;
 @media (max-width: 414px) {
   .CLA-Launch-wrap {
     .kv-wrap {
-      .adjust{
+      .adjust {
         top: -120px;
       }
       .CLA-content {
@@ -1123,13 +1218,49 @@ $purple: #92629d;
       }
     }
     .section-5-form-wrap {
+      padding: 13% 0 100px;
       .adjust {
         top: -50px;
       }
-      .CLA-content {
-        padding: 5% 8%;
+      .CLA-content.new-form {
+        .top {
+          span {
+            font-size: 35px - 15;
+          }
+        }
+        .bottom {
+          padding-top: 5%;
+          .CLA-form {
+            padding: 0 4%;
+            p {
+              font-size: 21px - 3;
+            }
+            .eventpage_oto_wrapper .event_oto .event_content {
+              
+              .CLA-btn-wrap {
+                div {
+                  &:nth-of-type(1) {
+                    margin-right: 1em;
+                  }
+                }
+              }
+            }
+          }
+          .CLA-gift {
+            .tit {
+              padding-left: 0;
+              h1{
+                font-size: 25px;
+              }
+              h2{
+                font-size: 22px;
+              }
+            }
+          }
+        }
       }
     }
+
     // 共用
 
     h1 {
@@ -1314,23 +1445,16 @@ $purple: #92629d;
       }
     }
     .section-5-form-wrap {
-      .adjust {
-        top: -100px;
-      }
-      .CLA-content {
-        padding: 20% 3%;
-        .tit {
+      .CLA-content.new-form {
+        .top {
         }
-        p {
-        }
-      }
-      .eventpage_oto_wrapper .event_oto .event_content {
-        .note-wrap {
-          // text-align: left;
-          // padding: 0.5em 10px 0;
-          ul {
-            li {
-              // font-size: 15px;
+        .bottom {
+          padding-top: 5%;
+          .CLA-form {
+            .eventpage_oto_wrapper .event_oto .event_content {
+              .note-wrap {
+                padding: 1.5em 0;
+              }
             }
           }
         }

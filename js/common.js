@@ -1,14 +1,14 @@
 // on screen animation
 
-$(window).scroll(function() {
-  $(".animate").each(function() {
-    if ($(this).isOnScreen(0, 0.1) == true) {
-      $(this).addClass("active");
-    } else {
-      $(this).removeClass("active");
-    }
-  });
-});
+// $(window).scroll(function() {
+//   $(".animate").each(function() {
+//     if ($(this).isOnScreen(0, 0.1) == true) {
+//       $(this).addClass("active");
+//     } else {
+//       $(this).removeClass("active");
+//     }
+//   });
+// });
 
 //product details
 
@@ -45,7 +45,6 @@ $(".formfield.answer7").prepend('<span class="checkbox_span"></span>'),
   $(".formfield.mobile input").attr("placeholder", "請輸入手機號碼"),
   $(".formfield.formfield_email input").attr("placeholder", "請輸入電子信箱"),
   $(".formfield.formfield_address1 input").attr("placeholder", "請輸入地址"),
-  //  $("#dwfrm_oto_oevent_answer1").attr("placeholder", "請輸入年齡"),
   $("#dwfrm_oto_oevent_answer4").attr(
     "placeholder",
     "請輸入Instagram帳號/粉絲人數"
