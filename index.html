@@ -258,7 +258,7 @@
           </div>
         </div>
       </div>
-      <div class="section-5-form-wrap">
+      <div class="section-5-form-wrap animate">
         <span id="coupon" class="adjust"></span
         ><span id="Coupon" class="adjust"></span
         ><span id="COUPON" class="adjust"></span>
@@ -340,7 +340,7 @@
                 </div>
               </div>
             </div>
-            <div class="CLA-gift">
+            <div class="CLA-gift animate">
               <div class="tit">
                 <h1>年輕雙天后</h1>
                 <h2><span>極光水 <span> x </span>  小黑瓶</span> 超速吸收 加速發光 倍速年輕</h2>
@@ -385,10 +385,10 @@
                 //上線
                 console.log("報名成功");
                 // 如果報名成功，切換文字，firefox無法更換文字
-                $(".response_box span").text("資料已成功送出謝謝您的參與!");
-                // $(".response_box span").append(
-                //   '<a href="http://staging-apac-loreal.demandware.net/s/lancome-tw/%E4%BF%9D%E9%A4%8A/%E8%87%89%E9%83%A8%E4%BF%9D%E9%A4%8A/%E4%BF%9D%E9%A4%8A%E7%89%B9%E6%83%A0%E7%B5%84/A01228-LAC.html"><img class="mb" src="http://staging-apac-loreal.demandware.net/on/demandware.static/-/Sites-lancome-tw-Library/zh_TW/dw688e4328/event-o2o-page/201908_GN_Reno/images/0815-LAN-Banner-5-MB.jpg" style="margin-top:20px" ><img class="pc" src="http://staging-apac-loreal.demandware.net/on/demandware.static/-/Sites-lancome-tw-Library/zh_TW/dw43ab3334/event-o2o-page/201908_GN_Reno/images/0815-LAN-Banner-5.jpg" style="margin-top:20px" ></a>'
-                // );
+                //$(".response_box span").text("資料已成功送出謝謝您的參與!");
+                $(".response_box span").append(
+                  '<div class="CLA-thanks-wrap"><img src="event-o2o-page/202003_CLA_Launch/images/thankyou-page.jpg?$staticlink$" ><a href="$url('Product-Show','pid','A01819-LAC')$" target="_blank"></a><a href="https://www.lancome.com.tw/2020-cny?lid=carousel1" target="_blank"></a></div>'
+                );
 
                 //if($('.response_box span').hasClass('error_message')) {  //測試用
                 //alert('campaign_leads_completed');

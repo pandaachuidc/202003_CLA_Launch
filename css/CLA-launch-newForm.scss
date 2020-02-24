@@ -520,7 +520,7 @@ $purple: #92629d;
           width: 50%;
           display: flex;
           flex-direction: column-reverse;
-          padding-top: 3em;
+          // padding-top: 3em;
           .tit {
             padding-left: 6em;
             h1 {
@@ -540,6 +540,9 @@ $purple: #92629d;
               }
             }
           }
+        }
+        .CLA-gift.active {
+          animation: approach-from-right 1s;
         }
       }
       .note {
@@ -1024,12 +1027,18 @@ $purple: #92629d;
               }
             }
           }
+          .CLA-gift.active {
+          animation: none;
+        }
         }
         .note {
           // text-align: left;
           // padding-top: 2em;
         }
       }
+    }
+    .section-5-form-wrap.active{
+       animation: approach-from-top 1s;
     }
     // 共用
     .pc {
@@ -1236,7 +1245,6 @@ $purple: #92629d;
               font-size: 21px - 3;
             }
             .eventpage_oto_wrapper .event_oto .event_content {
-              
               .CLA-btn-wrap {
                 div {
                   &:nth-of-type(1) {
@@ -1249,10 +1257,10 @@ $purple: #92629d;
           .CLA-gift {
             .tit {
               padding-left: 0;
-              h1{
+              h1 {
                 font-size: 25px;
               }
-              h2{
+              h2 {
                 font-size: 22px;
               }
             }

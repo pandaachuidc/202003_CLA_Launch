@@ -325,11 +325,22 @@
         <div class="CLA-gift">
           <div class="tit">
             <h1>年輕雙天后</h1>
-            <h2><span>極光水 <span> x </span>  小黑瓶</span> 超速吸收 加速發光 倍速年輕</h2>
+            <h2>
+              <span>極光水 <span> x </span> 小黑瓶</span> 超速吸收 加速發光
+              倍速年輕
+            </h2>
           </div>
           <div class="gift-photo">
-            <img class="pc" src="event-o2o-page/202003_CLA_Launch/images/CLA-gift-pc.png?$staticlink$" alt="" />
-            <img class="mb" src="event-o2o-page/202003_CLA_Launch/images/CLA-gift-mb.png?$staticlink$" alt="" />
+            <img
+              class="pc"
+              src="event-o2o-page/202003_CLA_Launch/images/CLA-gift-pc.png?$staticlink$"
+              alt=""
+            />
+            <img
+              class="mb"
+              src="event-o2o-page/202003_CLA_Launch/images/CLA-gift-mb.png?$staticlink$"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -369,8 +380,10 @@
             //上線
             console.log("報名成功");
             // 如果報名成功，切換文字，firefox無法更換文字
-            $(".response_box span").text("資料已成功送出謝謝您的參與!");
-
+            //$(".response_box span").text("資料已成功送出謝謝您的參與!");
+            $(".response_box span").append(
+              '<div class="CLA-thanks-wrap"><img src="event-o2o-page/202003_CLA_Launch/images/thankyou-page.jpg?$staticlink$" ><a href="$url('Product-Show','pid','A01819-LAC')$" target="_blank"></a><a href="https://www.lancome.com.tw/2020-cny?lid=carousel1" target="_blank"></a></div>'
+            );
             //if($('.response_box span').hasClass('error_message')) {  //測試用
             //alert('campaign_leads_completed');
             dataLayer.push({
