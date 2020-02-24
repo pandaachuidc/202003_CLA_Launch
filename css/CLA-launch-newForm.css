@@ -1195,7 +1195,6 @@ input {
     background: #fff;
     color: #000;
     width: 90%;
-    height: 65%;
     display: inline-block;
     margin: 0 auto;
     position: absolute;
@@ -1205,7 +1204,7 @@ input {
     text-indent: initial;
     text-align: center;
     line-height: 1em;
-    padding-top: 15%; }
+    padding: 100px 0; }
     .eventpage_oto_wrapper .event_oto .event_content .response_box.active span .CLA-thanks-wrap {
       position: relative;
       width: 100%; }
@@ -1248,8 +1247,7 @@ input {
 @media (min-width: 768px) {
   .eventpage_oto_wrapper .event_oto .event_content .response_box.active span {
     width: 84%;
-    height: 950px;
-    padding-top: 120px;
+    padding: 100px 0;
     margin-left: -42%; } }
 
 @media (max-width: 414px) {
@@ -1273,3 +1271,7 @@ input {
     font-size: 15px;
     font-weight: 600;
     opacity: 1; } }
+
+@media (max-width: 360px) {
+  .eventpage_oto_wrapper .event_oto .event_content .button_box button {
+    padding: 12px 39px; } }

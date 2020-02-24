@@ -216,7 +216,8 @@ li:hover {
     background: #fff;
     color: #000;
     width: 90%;
-    height: 65%;
+    // height: 65%;
+    // padding: 15% 0;
     display: inline-block;
     margin: 0 auto;
     position: absolute;
@@ -227,7 +228,8 @@ li:hover {
     text-indent: initial;
     text-align: center;
     line-height: 1em;
-    padding-top: 15%;
+    // padding-top: 15%;
+    padding: 100px 0;
 
     // thank you page 調整
     .CLA-thanks-wrap {
@@ -289,8 +291,9 @@ li:hover {
   .eventpage_oto_wrapper .event_oto .event_content .response_box.active {
     span {
       width: 84%;
-      height: 950px;
-      padding-top: 120px;
+      // height: 950px;
+      padding: 100px 0;
+      // padding-top: 120px;
       margin-left: -42%;
     }
     // .close_lightbox {
@@ -298,7 +301,6 @@ li:hover {
     // }
   }
 }
-
 
 //送出資料popup & 錯誤popup END
 //==========================
@@ -309,5 +311,10 @@ li:hover {
     font-size: 15px;
     font-weight: 600;
     opacity: 1;
+  }
+}
+@media (max-width: 360px) {
+  .eventpage_oto_wrapper .event_oto .event_content .button_box button {
+    padding: 12px 39px;
   }
 }
