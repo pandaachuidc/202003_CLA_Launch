@@ -799,7 +799,9 @@ li {
         .CLA-Launch-wrap .section-5-form-wrap .CLA-content.new-form .bottom .CLA-form p {
           font-size: 18px; }
         .CLA-Launch-wrap .section-5-form-wrap .CLA-content.new-form .bottom .CLA-form .eventpage_oto_wrapper .event_oto .event_content .CLA-btn-wrap div:nth-of-type(1) {
-          margin-right: 1em; }
+          margin-right: 0.5em; }
+        .CLA-Launch-wrap .section-5-form-wrap .CLA-content.new-form .bottom .CLA-form .eventpage_oto_wrapper .event_oto .event_content .CLA-btn-wrap div:nth-of-type(2) a {
+          padding-right: 0em; }
       .CLA-Launch-wrap .section-5-form-wrap .CLA-content.new-form .bottom .CLA-gift .tit {
         padding-left: 0; }
         .CLA-Launch-wrap .section-5-form-wrap .CLA-content.new-form .bottom .CLA-gift .tit h1 {
@@ -1151,7 +1153,7 @@ input {
     font-size: 18px;
     letter-spacing: 0.1em;
     font-weight: normal;
-    padding: 12px 40px;
+    padding: 16px 40px;
     margin: 10px auto;
     background-color: #000;
     -webkit-box-shadow: 0 0 10px #fff;
@@ -1271,7 +1273,3 @@ input {
     font-size: 15px;
     font-weight: 600;
     opacity: 1; } }
-
-@media (max-width: 360px) {
-  .eventpage_oto_wrapper .event_oto .event_content .button_box button {
-    padding: 12px 39px; } }
